@@ -213,6 +213,7 @@ header .header-container .btn:hover {
 }
 .section_three .section_three-wrapper .three-list .three-item {
   max-width: 20%;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0);
 }
 
 @media (max-width: 1160px) {
