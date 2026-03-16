@@ -159,7 +159,55 @@ header{
 .section_two{
     .section_two-wrapper{
         padding: 60px 0;
-        
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+        .two-left{
+            max-width: 50%;
+            img{
+                width: 100%;
+            }
+        }
+        .two-right{
+            max-width: 50%;
+              h2{
+                    max-width: 484px;
+                    color:#FFFFFF;
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height:130%;
+                    margin-bottom: 30px;
+                   
+                }
+                p{
+                  max-width: 460px;
+                    color:#FFFFFF;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height:160%;
+                    margin-bottom: 50px;
+                    
+                }
+                 .two-btn{
+                      padding: 12px 30px;
+                      border: 1px solid #3A68B8;
+                      background: #3A68B8;
+                      box-shadow: 0 0 5px #000;
+                      border-radius: 5px;
+                      color: #fff;
+                      outline: none;
+                      cursor: progress;
+                      font-weight: 400;
+                      font-size: 15px;
+                      line-height: 20px;
+                        &:hover{
+                         background: none;
+                         border: 1px solid #3A68B8;
+               }
+                  }
+
+        }
     }
 
 }
