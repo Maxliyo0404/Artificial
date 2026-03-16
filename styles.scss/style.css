@@ -152,6 +152,10 @@ header .header-container .btn:hover {
   width: 23%;
 }
 
+.section_two .section_two-wrapper {
+  padding: 60px 0;
+}
+
 @media (max-width: 1160px) {
   .section_one .section_one-wrapper .section-ones .one-left {
     max-width: 48%;
