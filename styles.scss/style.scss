@@ -219,10 +219,39 @@ header{
             align-items: stretch;
             justify-content: space-between;
             gap: 20px;
+            overflow: hidden;
             .three-item{
-                max-width: 20%;
-                border: 1px solid rgba(255, 255, 255, 0,05);
+                max-width: 360px;
+                border: 1px solid #FFFFFF33;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                padding: 12px;
+               
                 
+                img{
+                    width: 40%;
+                    margin-bottom: 30px;
+                }
+                 h3{
+                    
+                    color:#FFFFFF;
+                    font-weight: 700;
+                    font-size: 25px;
+                    line-height:125%;
+                    margin-bottom: 30px;
+                   
+                }
+                p{
+                 
+                    color:#FFFFFF;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height:160%;
+                   
+                    
+                }
                
 
             }
