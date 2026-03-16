@@ -73,3 +73,56 @@ header{
           }
    }
 }
+
+
+
+@media(max-width:1160px){
+    
+}
+@media(max-width:1160px){
+
+}
+@media(max-width:960px){
+  header{
+    .header-container{
+        .header-list{
+            gap: 10px;
+        }
+    }
+  }
+}
+@media(max-width:1160px){
+
+}
+@media(max-width:760px){
+ header{
+    .header-container{
+        .header-list{
+            display: none;
+        }
+    }
+  }
+}
+@media(max-width:660px){
+
+}
+@media(max-width:560px){
+  header{
+    .header-container{
+        .logo{
+            gap: 3px;
+            font-size: 15px;
+        }
+        .header-list{
+            display: none;
+        }
+        .btn{
+            padding: 8px 14px;
+            font-size: 12px;
+        }
+    }
+  }
+}
+@media(max-width:1160px){
+
+}
