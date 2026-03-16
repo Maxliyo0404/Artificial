@@ -167,6 +167,9 @@ header .header-container .btn:hover {
   header .header-container .header-list {
     gap: 10px;
   }
+  .section_one .section_one-wrapper {
+    padding: 60px 0;
+  }
   .section_one .section_one-wrapper .section-ones {
     flex-direction: column-reverse;
   }
@@ -190,6 +193,51 @@ header .header-container .btn:hover {
 @media (max-width: 760px) {
   header .header-container .header-list {
     display: none;
+  }
+}
+@media (max-width: 660px) {
+  .section_one .section_one-wrapper {
+    padding: 60px 0;
+  }
+  .section_one .section_one-wrapper .section-ones {
+    flex-direction: column-reverse;
+    margin-bottom: 30px;
+  }
+  .section_one .section_one-wrapper .section-ones .one-left {
+    max-width: 100%;
+    text-align: center;
+  }
+  .section_one .section_one-wrapper .section-ones .one-left h5 {
+    width: 100%;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .section_one .section_one-wrapper .section-ones .one-left h2 {
+    width: 100%;
+    font-size: 28px;
+    line-height: 32px;
+    margin-bottom: 20px;
+  }
+  .section_one .section_one-wrapper .section-ones .one-left p {
+    width: 100%;
+    font-size: 13px;
+    line-height: 22px;
+    margin-bottom: 30px;
+  }
+  .section_one .section_one-wrapper .section-ones .one-left .one-btns .one-btn {
+    padding: 8px 18px;
+    text-align: center;
+  }
+  .section_one .section_one-wrapper .section-ones .one-right {
+    max-width: 72%;
+  }
+  .section_one .section_one-wrapper .section-ones .one-right .right-rasm {
+    max-width: 100%;
+  }
+  .section_one .section_one-wrapper .one-images {
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 auto;
   }
 }
 @media (max-width: 560px) {
