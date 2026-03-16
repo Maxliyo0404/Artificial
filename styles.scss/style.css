@@ -72,6 +72,22 @@ header .header-container .btn:hover {
   border: 1px solid #3A68B8;
 }
 
+.section_one .section_one-wrapper {
+  padding: 80px 0;
+}
+.section_one .section_one-wrapper .section-ones {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.section_one .section_one-wrapper .section-ones .one-left {
+  max-width: 50%;
+}
+.section_one .section_one-wrapper .section-ones .one-right {
+  max-width: 50%;
+}
+
 @media (max-width: 960px) {
   header .header-container .header-list {
     gap: 10px;

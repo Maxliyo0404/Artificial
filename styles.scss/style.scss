@@ -73,6 +73,23 @@ header{
           }
    }
 }
+.section_one{
+    .section_one-wrapper{
+        padding: 80px 0;
+        .section-ones{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+            .one-left{
+                max-width: 50%;
+            }
+            .one-right{
+                max-width: 50%;
+            }
+        }
+    }
+}
 
 
 
