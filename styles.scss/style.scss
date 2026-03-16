@@ -267,8 +267,24 @@ header{
     }
 }
 }
-@media(max-width:1160px){
-
+@media(max-width:860px){
+  .section_two{
+    .section_two-wrapper{
+        flex-direction: column;
+        .two-left{
+            max-width: 50%;
+        }
+        .two-right{
+            max-width: 100%;
+                h2{
+                    max-width: 100%;
+                }
+                p{
+                    max-width: 100%;
+                }
+        }
+    }
+  }
 }
 @media(max-width:760px){
  header{
@@ -328,7 +344,31 @@ header{
             margin: 0 auto;
         }
     }
-}
+  }
+  .section_two{
+    .section_two-wrapper{
+        flex-direction: column;
+        padding: 40px 0;
+        .two-left{
+            max-width: 60%;
+            margin-bottom: 10px;
+        }
+        .two-right{
+            max-width: 100%;
+            text-align: center;
+                h2{
+                    max-width: 100%;
+                    font-size: 29px;
+                    line-height: 31px;
+                }
+                p{
+                    max-width: 100%;
+                    font-size: 12px;
+                    line-height: 18px
+                }
+        }
+    }
+  }
 }
 @media(max-width:560px){
   header{
