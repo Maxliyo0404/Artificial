@@ -211,6 +211,23 @@ header{
     }
 
 }
+.section_three{
+    .section_three-wrapper{
+        padding: 60px 0;
+        .three-list{
+            display: flex;
+            align-items: stretch;
+            justify-content: space-between;
+            gap: 20px;
+            .three-item{
+                max-width: 20%;
+                
+               
+
+            }
+        }
+    }
+}
 
 
 

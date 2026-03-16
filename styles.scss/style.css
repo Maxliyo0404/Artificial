@@ -202,6 +202,19 @@ header .header-container .btn:hover {
   border: 1px solid #3A68B8;
 }
 
+.section_three .section_three-wrapper {
+  padding: 60px 0;
+}
+.section_three .section_three-wrapper .three-list {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 20px;
+}
+.section_three .section_three-wrapper .three-list .three-item {
+  max-width: 20%;
+}
+
 @media (max-width: 1160px) {
   .section_one .section_one-wrapper .section-ones .one-left {
     max-width: 48%;
