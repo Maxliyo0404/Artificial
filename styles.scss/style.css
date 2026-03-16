@@ -84,8 +84,35 @@ header .header-container .btn:hover {
 .section_one .section_one-wrapper .section-ones .one-left {
   max-width: 50%;
 }
+.section_one .section_one-wrapper .section-ones .one-left h5 {
+  color: #3A68B8;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 160%;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.section_one .section_one-wrapper .section-ones .one-left h2 {
+  width: 599px;
+  color: #FFFFFF;
+  font-weight: 800;
+  font-size: 55px;
+  line-height: 130%;
+  margin-bottom: 40px;
+}
+.section_one .section_one-wrapper .section-ones .one-left p {
+  width: 558px;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 160%;
+  margin-bottom: 50px;
+}
 .section_one .section_one-wrapper .section-ones .one-right {
   max-width: 50%;
+}
+.section_one .section_one-wrapper .section-ones .one-right .right-rasm {
+  max-width: 100%;
 }
 
 @media (max-width: 960px) {
