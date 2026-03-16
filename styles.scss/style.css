@@ -80,6 +80,7 @@ header .header-container .btn:hover {
   align-items: center;
   justify-content: space-between;
   gap: 20px;
+  margin-bottom: 82px;
 }
 .section_one .section_one-wrapper .section-ones .one-left {
   max-width: 50%;
@@ -108,16 +109,82 @@ header .header-container .btn:hover {
   line-height: 160%;
   margin-bottom: 50px;
 }
+.section_one .section_one-wrapper .section-ones .one-left .one-btns {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.section_one .section_one-wrapper .section-ones .one-left .one-btns .one-btn {
+  padding: 12px 30px;
+  font-size: 18px;
+  border: 1px solid #3A68B8;
+  background: #3A68B8;
+  box-shadow: 0 0 5px #000;
+  border-radius: 5px;
+  color: #fff;
+  outline: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: progress;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+}
+.section_one .section_one-wrapper .section-ones .one-left .one-btns .one-btn:hover {
+  background: none;
+  border: 1px solid #3A68B8;
+}
 .section_one .section_one-wrapper .section-ones .one-right {
   max-width: 50%;
 }
 .section_one .section_one-wrapper .section-ones .one-right .right-rasm {
   max-width: 100%;
 }
+.section_one .section_one-wrapper .one-images {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.section_one .section_one-wrapper .one-images .one-image {
+  width: 23%;
+}
 
+@media (max-width: 1160px) {
+  .section_one .section_one-wrapper .section-ones .one-left {
+    max-width: 48%;
+  }
+  .section_one .section_one-wrapper .section-ones .one-right {
+    max-width: 48%;
+  }
+  .section_one .section_one-wrapper .section-ones .one-right .right-rasm {
+    max-width: 100%;
+  }
+}
 @media (max-width: 960px) {
   header .header-container .header-list {
     gap: 10px;
+  }
+  .section_one .section_one-wrapper .section-ones {
+    flex-direction: column-reverse;
+  }
+  .section_one .section_one-wrapper .section-ones .one-left {
+    max-width: 100%;
+    text-align: center;
+  }
+  .section_one .section_one-wrapper .section-ones .one-left h2 {
+    width: 100%;
+  }
+  .section_one .section_one-wrapper .section-ones .one-left p {
+    width: 100%;
+  }
+  .section_one .section_one-wrapper .section-ones .one-right {
+    max-width: 52%;
+  }
+  .section_one .section_one-wrapper .section-ones .one-right .right-rasm {
+    max-width: 100%;
   }
 }
 @media (max-width: 760px) {
