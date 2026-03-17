@@ -311,6 +311,10 @@ header .header-container .btn:hover {
   .section_one .section_one-wrapper .section-ones .one-right .right-rasm {
     max-width: 100%;
   }
+  .section_three .section_three-wrapper .three-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 @media (max-width: 860px) {
   .section_two .section_two-wrapper {
@@ -414,6 +418,17 @@ header .header-container .btn:hover {
     max-width: 100%;
     font-size: 12px;
     line-height: 18px;
+  }
+  .section_three .section_three-wrapper {
+    padding: 20px 0;
+  }
+  .section_three .section_three-wrapper .three-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .section_three .section_three-wrapper .three-list .three-item img {
+    width: 20%;
   }
 }
 @media (max-width: 560px) {
