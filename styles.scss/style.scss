@@ -215,27 +215,24 @@ header{
     .section_three-wrapper{
         padding: 60px 0;
         .three-list{
-            display: flex;
-            align-items: stretch;
-            justify-content: space-between;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
             gap: 20px;
-            overflow: hidden;
             .three-item{
-                max-width: 360px;
+                max-width: 100%;
                 border: 1px solid #FFFFFF33;
                 display: flex;
                 align-items: center;
-                justify-content: center;
                 flex-direction: column;
-                padding: 12px;
-               
+                text-align: center;
+               padding: 12px;
                 
                 img{
                     width: 40%;
                     margin-bottom: 30px;
                 }
                  h3{
-                    
+                   
                     color:#FFFFFF;
                     font-weight: 700;
                     font-size: 25px;
@@ -274,6 +271,14 @@ header{
                     max-width: 100%;
                 }
             }
+        }
+    }
+}
+.section_three{
+    .section_three-wrapper{
+        .three-list{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
         }
     }
 }
