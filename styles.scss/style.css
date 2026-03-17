@@ -237,6 +237,39 @@ header .header-container .btn:hover {
   line-height: 160%;
 }
 
+.section_four .section_four-wrapper {
+  padding: 60px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.section_four .section_four-wrapper .four-left {
+  max-width: 50%;
+}
+.section_four .section_four-wrapper .four-left h2 {
+  max-width: 548px;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 130%;
+  margin-bottom: 30px;
+}
+.section_four .section_four-wrapper .four-left p {
+  max-width: 460px;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 160%;
+  margin-bottom: 20px;
+}
+.section_four .section_four-wrapper .four-right {
+  max-width: 50%;
+}
+.section_four .section_four-wrapper .four-right img {
+  width: 100%;
+}
+
 @media (max-width: 1160px) {
   .section_one .section_one-wrapper .section-ones .one-left {
     max-width: 48%;
@@ -294,6 +327,21 @@ header .header-container .btn:hover {
   }
   .section_two .section_two-wrapper .two-right p {
     max-width: 100%;
+  }
+  .section_four .section_four-wrapper {
+    flex-direction: column-reverse;
+  }
+  .section_four .section_four-wrapper .four-left {
+    max-width: 100%;
+  }
+  .section_four .section_four-wrapper .four-left h2 {
+    max-width: 100%;
+  }
+  .section_four .section_four-wrapper .four-left p {
+    max-width: 100%;
+  }
+  .section_four .section_four-wrapper .four-right {
+    max-width: 50%;
   }
 }
 @media (max-width: 760px) {
@@ -379,5 +427,29 @@ header .header-container .btn:hover {
   header .header-container .btn {
     padding: 8px 14px;
     font-size: 12px;
+  }
+  .section_four .section_four-wrapper {
+    flex-direction: column-reverse;
+  }
+  .section_four .section_four-wrapper .four-left {
+    max-width: 100%;
+    text-align: center;
+  }
+  .section_four .section_four-wrapper .four-left h2 {
+    max-width: 100%;
+    font-size: 30px;
+    line-height: 32px;
+    margin-bottom: 25px;
+  }
+  .section_four .section_four-wrapper .four-left p {
+    max-width: 100%;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .section_four .section_four-wrapper .four-right {
+    max-width: 60%;
+  }
+  .section_four .section_four-wrapper .four-right img {
+    width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */

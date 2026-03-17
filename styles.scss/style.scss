@@ -255,6 +255,43 @@ header{
         }
     }
 }
+.section_four{
+    .section_four-wrapper{
+        padding: 60px 0;
+         display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+        .four-left{
+            max-width: 50%;
+             h2{
+                    max-width: 548px;
+                    color:#FFFFFF;
+                    font-weight: 700;
+                    font-size: 30px;
+                    line-height:130%;
+                    margin-bottom: 30px;
+                   
+                }
+                p{
+                    max-width: 460px;
+                    color:#FFFFFF;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height:160%;
+                    margin-bottom: 20px;
+                    
+                }
+            
+        }
+        .four-right{
+            max-width: 50%;
+              img{
+                width: 100%;
+            }
+    }
+}
+}
 
 
 
@@ -334,6 +371,24 @@ header{
                 p{
                     max-width: 100%;
                 }
+        }
+    }
+  }
+  .section_four{
+    .section_four-wrapper{
+        flex-direction: column-reverse;
+        
+        .four-left{
+            max-width: 100%;
+                h2{
+                    max-width: 100%;
+                }
+                p{
+                    max-width: 100%;
+                }
+        }
+        .four-right{
+            max-width: 50%;
         }
     }
   }
@@ -435,6 +490,35 @@ header{
         .btn{
             padding: 8px 14px;
             font-size: 12px;
+        }
+    }
+  }
+  .section_four{
+    .section_four-wrapper{
+        flex-direction: column-reverse;
+        
+        .four-left{
+            max-width: 100%;
+            text-align: center;
+                h2{
+                    max-width: 100%;
+                    font-size: 30px;
+                    line-height: 32px;
+                    margin-bottom: 25px;
+                }
+                p{
+                    max-width: 100%;
+                    font-size: 14px;
+                    line-height: 22px;
+                    
+                }
+        }
+        .four-right{
+            max-width: 60%;
+            img{
+                width: 100%;
+            }
+
         }
     }
   }
