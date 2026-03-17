@@ -467,7 +467,12 @@ footer{
            }
         }
     }
-}
+  }
+  footer{
+    .footer{
+        
+    }
+  }
 }
 @media(max-width:860px){
   .section_two{
@@ -599,7 +604,7 @@ footer{
             gap: 30px;
             .three-item{
                 img{
-                    width: 40%;
+                    width: 20%;
                 }
             }
             
