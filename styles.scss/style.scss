@@ -218,7 +218,7 @@ header{
           
             
              display: grid;
-            grid-template-columns: repeat(auto, auto, auto, auto, autuo)
+            grid-template-columns: repeat(auto, auto, auto, auto, autuo);
             gap: 20px;
             .three-item{
                 max-width: 100%;
@@ -227,10 +227,10 @@ header{
                 align-items: center;
                 flex-direction: column;
                 text-align: center;
-                padding: 12px;
+                padding: 20px;
                 
                 img{
-                    width: 40%;
+                    width: 30%;
                     margin-bottom: 30px;
                 }
                  h3{
